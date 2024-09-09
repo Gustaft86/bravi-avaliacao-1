@@ -25,9 +25,9 @@ bravi-avaliacao-1/
 
 ## Configuração e Execução
 
-### A. Localmente no Terminal
+### 1. Localmente no Terminal
 
-1. **Instale as dependências:**
+a. **Instale as dependências:**
 
    Navegue para o diretório do projeto e instale as dependências:
 
@@ -35,7 +35,7 @@ bravi-avaliacao-1/
    npm install
    ```
 
-2. **Execute o aplicativo:**
+b. **Execute o aplicativo:**
   
    Para iniciar o aplicativo e interagir com ele, use:
 
@@ -43,9 +43,9 @@ bravi-avaliacao-1/
    node src/index.js
    ```
 
-### B. Com Docker
+### 2. Com Docker
 
-1. **Construir a Imagem Docker:**
+a. **Construir a Imagem Docker:**
 
    No diretório raiz do projeto, construa a imagem Docker:
 
@@ -53,7 +53,7 @@ bravi-avaliacao-1/
 docker build -t brackets-validator .
 ```
 
-2. **Executar o Contêiner Docker:**
+b. **Executar o Contêiner Docker:**
 
    Execute o contêiner Docker interativamente:
 
@@ -61,9 +61,9 @@ docker build -t brackets-validator .
 npm run it-docker
 ```
 
-### C. Com Docker Compose
+### 3. Com Docker Compose
 
-1. **Construir e Executar o Serviço com Docker Compose:**
+**Construir e Executar o Serviço com Docker Compose:**
 
    No diretório raiz do projeto, execute o comando Docker Compose:
 
