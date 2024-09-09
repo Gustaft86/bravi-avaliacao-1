@@ -1,5 +1,5 @@
 # Usar uma imagem base do Node.js
-FROM node:22
+FROM node:18.17.1
 
 # Criar o diretório de trabalho
 WORKDIR /app
@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 3000
 
 # Comando para iniciar a aplicação
-CMD ["node", "index.js"]
+CMD ["node", "src/index.js"]

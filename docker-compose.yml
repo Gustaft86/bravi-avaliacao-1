@@ -6,4 +6,7 @@ services:
       - "3000:3000"
     volumes:
       - .:/app
-    command: npm start
+    working_dir: /app
+    command: node src/index.js
+    stdin_open: true
+    tty: true
