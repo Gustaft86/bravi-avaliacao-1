@@ -25,7 +25,7 @@ bravi-avaliacao-1/
 
 ## Configuração e Execução
 
-### 1. Executar Localmente no Terminal
+### A. Localmente no Terminal
 
 1. **Instale as dependências:**
 
@@ -43,7 +43,7 @@ bravi-avaliacao-1/
    node src/index.js
    ```
 
-### 2. Executar com Docker
+### B. Com Docker
 
 1. **Construir a Imagem Docker:**
 
@@ -61,7 +61,7 @@ docker build -t brackets-validator .
 npm run it-docker
 ```
 
-### 3. Executar com Docker Compose
+### C. Com Docker Compose
 
 1. **Construir e Executar o Serviço com Docker Compose:**
 
